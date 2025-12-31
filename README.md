@@ -6,7 +6,7 @@ An Angular application for managing a library book collection with NgRx Signals 
 
 Before running this application, make sure you have the following installed:
 
-- **Node.js** (version 20.x or higher recommended)
+- **Node.js** (version 20.19.x or higher recommended)
 - **npm** (comes with Node.js)
 
 To check if you have Node.js and npm installed, run:

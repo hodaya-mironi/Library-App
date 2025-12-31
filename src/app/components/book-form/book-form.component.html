@@ -1,0 +1,198 @@
+<div class="book-form-container">
+  <h1>{{ isEditMode ? 'Edit Book' : 'Add New Book' }}</h1>
+
+  <form [formGroup]="bookForm" (ngSubmit)="onSubmit()" class="book-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="title">Title *</label>
+        <input
+          type="text"
+          id="title"
+          formControlName="title"
+          [class.invalid]="isFieldInvalid('title')">
+        @if (isFieldInvalid('title')) {
+          <span class="error-message">
+            {{ getErrorMessage('title') }}
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author *</label>
+        <input
+          type="text"
+          id="author"
+          formControlName="author"
+          [class.invalid]="isFieldInvalid('author')">
+        @if (isFieldInvalid('author')) {
+          <span class="error-message">
+            {{ getErrorMessage('author') }}
+          </span>
+        }
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="isbn">ISBN *</label>
+        <input
+          type="text"
+          id="isbn"
+          formControlName="isbn"
+          placeholder="e.g., 978-1-4000-6885-7"
+          [class.invalid]="isFieldInvalid('isbn')">
+        @if (isFieldInvalid('isbn')) {
+          <span class="error-message">
+            {{ getErrorMessage('isbn') }}
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="publicationDate">Publication Date *</label>
+        <input
+          type="date"
+          id="publicationDate"
+          formControlName="publicationDate"
+          [class.invalid]="isFieldInvalid('publicationDate')">
+        @if (isFieldInvalid('publicationDate')) {
+          <span class="error-message">
+            {{ getErrorMessage('publicationDate') }}
+          </span>
+        }
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="genre">Genre *</label>
+        <input
+          type="text"
+          id="genre"
+          formControlName="genre"
+          [class.invalid]="isFieldInvalid('genre')">
+        @if (isFieldInvalid('genre')) {
+          <span class="error-message">
+            {{ getErrorMessage('genre') }}
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="publisher">Publisher</label>
+        <input
+          type="text"
+          id="publisher"
+          formControlName="publisher"
+          [class.invalid]="isFieldInvalid('publisher')">
+        @if (isFieldInvalid('publisher')) {
+          <span class="error-message">
+            {{ getErrorMessage('publisher') }}
+          </span>
+        }
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="pages">Pages *</label>
+        <input
+          type="number"
+          id="pages"
+          formControlName="pages"
+          min="1"
+          [class.invalid]="isFieldInvalid('pages')">
+        @if (isFieldInvalid('pages')) {
+          <span class="error-message">
+            {{ getErrorMessage('pages') }}
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="rating">Rating (0-5) *</label>
+        <input
+          type="number"
+          id="rating"
+          formControlName="rating"
+          min="0"
+          max="5"
+          step="0.1"
+          [class.invalid]="isFieldInvalid('rating')">
+        @if (isFieldInvalid('rating')) {
+          <span class="error-message">
+            {{ getErrorMessage('rating') }}
+          </span>
+        }
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="language">Language</label>
+        <input
+          type="text"
+          id="language"
+          formControlName="language"
+          [class.invalid]="isFieldInvalid('language')">
+        @if (isFieldInvalid('language')) {
+          <span class="error-message">
+            {{ getErrorMessage('language') }}
+          </span>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input
+          type="text"
+          id="location"
+          formControlName="location"
+          [class.invalid]="isFieldInvalid('location')">
+        @if (isFieldInvalid('location')) {
+          <span class="error-message">
+            {{ getErrorMessage('location') }}
+          </span>
+        }
+      </div>
+    </div>
+
+    <div class="form-group full-width">
+      <label for="description">Description</label>
+      <textarea
+        id="description"
+        formControlName="description"
+        rows="4"
+        [class.invalid]="isFieldInvalid('description')"></textarea>
+      @if (isFieldInvalid('description')) {
+        <span class="error-message">
+          {{ getErrorMessage('description') }}
+        </span>
+      }
+    </div>
+
+    <div class="form-group checkbox-group">
+      <label>
+        <input
+          type="checkbox"
+          formControlName="isAvailable">
+        Checked In
+      </label>
+    </div>
+
+    <div class="form-actions">
+      <button type="button" class="btn btn-secondary" (click)="onCancel()" [disabled]="booksStore.isLoadingAction()">
+        Cancel
+      </button>
+      <button type="submit" class="btn btn-primary" [disabled]="booksStore.isLoadingAction()">
+        @if (booksStore.isLoadingAction()) {
+          <span class="spinner"></span>
+        } @else if (booksStore.hasErrorOnDispatchBookAction()) {
+          <span>Retry</span>
+        } @else {
+          <span>{{ isEditMode ? 'Update Book' : 'Add Book' }}</span>
+        }
+      </button>
+    </div>
+  </form>
+</div>

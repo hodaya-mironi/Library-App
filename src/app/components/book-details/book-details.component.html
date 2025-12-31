@@ -1,0 +1,96 @@
+<div class="book-details-container">
+  @if (isLoading()) {
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading book details...</p>
+    </div>
+  } @else if (!book()) {
+    <div class="error-state">
+      <div class="error-icon">📚</div>
+      <h3>Book Not Found</h3>
+      <p>The book you're looking for doesn't exist.</p>
+      <button class="back-button" (click)="goBack()">Back to Library</button>
+    </div>
+  } @else {
+    <div class="book-details-content">
+      <div class="header-section">
+        <button class="back-button" (click)="goBack()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Back to Library
+        </button>
+      </div>
+
+      <div class="details-grid">
+        <div class="main-info">
+          <h1 class="book-title">{{ book()!.title }}</h1>
+          <p class="book-author">by {{ book()!.author }}</p>
+
+          <div class="availability-badge" [class.available]="book()!.isAvailable" [class.unavailable]="!book()!.isAvailable">
+            {{ book()!.isAvailable ? 'Available' : 'Checked Out' }}
+          </div>
+
+          <div class="book-description">
+            <h3>Description</h3>
+            <p>{{ book()!.description }}</p>
+          </div>
+        </div>
+
+        <div class="book-metadata">
+          <div class="metadata-item">
+            <span class="label">Catalog Number:</span>
+            <span class="value">#{{ book()!.id }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">ISBN:</span>
+            <span class="value">{{ book()!.isbn }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Publisher:</span>
+            <span class="value">{{ book()!.publisher }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Language:</span>
+            <span class="value">{{ book()!.language }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Genre:</span>
+            <span class="value">{{ book()!.genre }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Publication Date:</span>
+            <span class="value">{{ book()!.publicationDate }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Pages:</span>
+            <span class="value">{{ book()!.pages }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Location:</span>
+            <span class="value">{{ book()!.location }}</span>
+          </div>
+
+          <div class="metadata-item">
+            <span class="label">Rating:</span>
+            <span class="value">
+              <span class="rating-stars">
+                @for (star of [1,2,3,4,5]; track star) {
+                  <span [class.filled]="star <= book()!.rating">★</span>
+                }
+              </span>
+              ({{ book()!.rating }}/5)
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</div>

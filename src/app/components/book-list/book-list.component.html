@@ -1,0 +1,111 @@
+<div class="book-list-container">
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <h1 class="title">Library Collection</h1>
+        <p class="subtitle">Browse and manage your books</p>
+      </div>
+      <button class="add-book-btn" (click)="onAddBook()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"/>
+          <line x1="5" y1="12" x2="19" y2="12"/>
+        </svg>
+        <span>Add Book</span>
+      </button>
+    </div>
+
+    <div class="controls-container">
+      <div class="search-container">
+        <div class="search-wrapper">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search books by title..."
+            [value]="searchQuery()"
+            (input)="onSearchChange($any($event.target).value)"
+          />
+          @if (searchQuery()) {
+            <button
+              class="clear-search"
+              (click)="onSearchChange('')"
+              title="Clear search"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+              </svg>
+            </button>
+          }
+        </div>
+      </div>
+
+      <div class="sorting-controls">
+        <label for="sort-select">Sort by:</label>
+        <select
+          id="sort-select"
+          [value]="sortBy()"
+          (change)="onSortChange($any($event.target).value)"
+          class="sort-select"
+        >
+          <option value="none">Default</option>
+          <option value="author">Author Name</option>
+          <option value="publicationDate">Publication Date</option>
+          <option value="catalogNumber">Catalog Number</option>
+        </select>
+
+        <button
+          class="direction-toggle"
+          (click)="toggleSortDirection()"
+          [disabled]="sortBy() === 'none'"
+          [title]="sortBy() === 'none' ? 'Select a sort option first' : (sortDirection() === 'asc' ? 'Sort Descending' : 'Sort Ascending')"
+        >
+          @if (sortDirection() === 'asc') {
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+            <span>Ascending</span>
+          } @else {
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+            <span>Descending</span>
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+
+  @if (booksStore.isLoadingBooks()) {
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading books...</p>
+    </div>
+  } @else if (booksStore.hasErrorOnLoadingBooks()) {
+    <div class="error-state">
+      <div class="error-icon">⚠️</div>
+      <h3>Failed to Load Books</h3>
+      <p>There was an error loading the books. Please try again later.</p>
+    </div>
+  } @else if (booksStore.books().length === 0) {
+    <div class="empty-state">
+      <div class="empty-icon">📚</div>
+      <h3>No Books Found</h3>
+      <p>Your library is empty. Start adding some books!</p>
+    </div>
+  } @else {
+    <cdk-virtual-scroll-viewport itemSize="140" class="book-list-viewport">
+      <app-book-row
+        *cdkVirtualFor="let book of sortedBooks()"
+        [book]="book"
+        (bookClicked)="onBookClicked($event)"
+        (availabilityToggled)="onAvailabilityToggled($event)"
+        (editClicked)="onEditBookClicked($event)"
+        (deleteClicked)="onDeleteBookClicked($event)"
+      />
+    </cdk-virtual-scroll-viewport>
+  }
+</div>

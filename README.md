@@ -21,7 +21,7 @@ npm -v
 1. Clone the repository (if you haven't already):
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hodaya-mironi/Library-App.git
 cd library-app
 ```
 

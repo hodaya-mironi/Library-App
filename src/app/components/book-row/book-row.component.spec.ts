@@ -10,6 +10,7 @@ describe('BookRow', () => {
 
   const mockBook: Book = {
     id: 1,
+    catalogNumber: '0001',
     title: 'Test Book',
     author: 'Test Author',
     isbn: '978-1-4000-6885-7',

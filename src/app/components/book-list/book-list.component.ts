@@ -49,7 +49,7 @@ export class BookList implements OnInit {
           comparison = new Date(a.publicationDate).getTime() - new Date(b.publicationDate).getTime();
           break;
         case 'catalogNumber':
-          comparison = a.id - b.id;
+          comparison = a.catalogNumber.localeCompare(b.catalogNumber);
           break;
         default:
           comparison = 0;

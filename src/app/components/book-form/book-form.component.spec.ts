@@ -15,6 +15,7 @@ describe('BookForm', () => {
 
   const mockBook: Book = {
     id: 1,
+    catalogNumber: '0001',
     title: 'Test Book',
     author: 'Test Author',
     isbn: '978-1-4000-6885-7',
@@ -208,6 +209,7 @@ describe('BookForm', () => {
     it('should add new book when form is valid in add mode', () => {
       component.isEditMode = false;
       component.bookForm.patchValue({
+        catalogNumber: '0002',
         title: 'New Book',
         author: 'New Author',
         isbn: '978-1-4000-6885-8',
@@ -226,6 +228,7 @@ describe('BookForm', () => {
 
       expect(mockBooksStore.addBook).toHaveBeenCalled();
       const addedBook = mockBooksStore.addBook.calls.mostRecent().args[0];
+      expect(addedBook.catalogNumber).toBe('0002');
       expect(addedBook.title).toBe('New Book');
       expect(addedBook.id).toBe(2);
     });
@@ -234,6 +237,7 @@ describe('BookForm', () => {
       component.isEditMode = true;
       component.bookId = 1;
       component.bookForm.patchValue({
+        catalogNumber: '0001',
         title: 'Updated Book',
         author: 'Updated Author',
         isbn: '978-1-4000-6885-7',
@@ -249,6 +253,7 @@ describe('BookForm', () => {
       expect(mockBooksStore.updateBook).toHaveBeenCalled();
       const updatedBook = mockBooksStore.updateBook.calls.mostRecent().args[0];
       expect(updatedBook.id).toBe(1);
+      expect(updatedBook.catalogNumber).toBe('0001');
       expect(updatedBook.title).toBe('Updated Book');
     });
 

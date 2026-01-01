@@ -14,6 +14,7 @@ describe('BookList', () => {
   const mockBooks: Book[] = [
     {
       id: 1,
+      catalogNumber: '0001',
       title: 'Test Book A',
       author: 'Author A',
       isbn: '978-1-4000-6885-7',
@@ -29,6 +30,7 @@ describe('BookList', () => {
     },
     {
       id: 2,
+      catalogNumber: '0002',
       title: 'Test Book B',
       author: 'Author B',
       isbn: '978-1-4000-6885-8',

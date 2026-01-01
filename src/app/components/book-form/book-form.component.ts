@@ -61,9 +61,18 @@ export class BookForm implements OnInit {
 
   private initializeForm() {
     this.bookForm = this.fb.group({
+      catalogNumber: ['', [
+        Validators.required,
+        Validators.pattern(/^\d{4,10}$/),
+        this.uniqueCatalogNumberValidator.bind(this)
+      ]],
       title: ['', [Validators.required, Validators.maxLength(200)]],
       author: ['', [Validators.required, Validators.maxLength(100)]],
-      isbn: ['', [Validators.required, Validators.pattern(/^(?:\d{9}[\dXx]|(?:\d{3}-?)?\d{1,5}-?\d{1,7}-?\d{1,7}-?[\dXx])$/)]],
+      isbn: ['', [
+        Validators.required,
+        Validators.pattern(/^(?:\d{9}[\dXx]|(?:\d{3}-?)?\d{1,5}-?\d{1,7}-?\d{1,7}-?[\dXx])$/),
+        this.uniqueIsbnValidator.bind(this)
+      ]],
       publicationDate: ['', [Validators.required]],
       genre: ['', [Validators.required, Validators.maxLength(50)]],
       pages: ['', [Validators.required, Validators.min(1), Validators.max(10000)]],
@@ -74,6 +83,36 @@ export class BookForm implements OnInit {
       language: ['', [Validators.maxLength(50)]],
       location: ['', [Validators.maxLength(100)]]
     });
+  }
+
+  private uniqueCatalogNumberValidator(control: any) {
+    if (!control.value) {
+      return null;
+    }
+
+    const catalogNumber = control.value;
+    const books = this.booksStore.books();
+    const isDuplicate = books.some(book =>
+      book.catalogNumber === catalogNumber &&
+      (!this.isEditMode || book.id !== this.bookId)
+    );
+
+    return isDuplicate ? { uniqueCatalogNumber: true } : null;
+  }
+
+  private uniqueIsbnValidator(control: any) {
+    if (!control.value) {
+      return null;
+    }
+
+    const isbn = control.value;
+    const books = this.booksStore.books();
+    const isDuplicate = books.some(book =>
+      book.isbn === isbn &&
+      (!this.isEditMode || book.id !== this.bookId)
+    );
+
+    return isDuplicate ? { uniqueIsbn: true } : null;
   }
 
   private checkEditMode() {
@@ -149,13 +188,23 @@ export class BookForm implements OnInit {
       return `${this.getFieldLabel(fieldName)} must be at most ${control.errors?.['max'].max}`;
     }
     if (control?.hasError('pattern')) {
+      if (fieldName === 'catalogNumber') {
+        return 'Catalog Number must be 4-10 digits (e.g., 0001)';
+      }
       return `${this.getFieldLabel(fieldName)} must be a valid ISBN (e.g., 978-1-4000-6885-7 or 0-306-40615-2)`;
+    }
+    if (control?.hasError('uniqueCatalogNumber')) {
+      return 'This Catalog Number already exists';
+    }
+    if (control?.hasError('uniqueIsbn')) {
+      return 'This ISBN already exists';
     }
     return '';
   }
 
   private getFieldLabel(fieldName: string): string {
     const labels: { [key: string]: string } = {
+      catalogNumber: 'Catalog Number',
       title: 'Title',
       author: 'Author',
       isbn: 'ISBN',

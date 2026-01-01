@@ -12,7 +12,8 @@
     "description": "A gripping tale of intrigue and suspense that will keep you guessing until the final page.",
     "publisher": "Apress",
     "language": "Spanish",
-    "location": "Section B, Shelf 3"
+    "location": "Section B, Shelf 3",
+    "catalogNumber": "0001"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     "description": "An essential guide for modern developers looking to master cutting-edge techniques.",
     "publisher": "Packt Publishing",
     "language": "Spanish",
-    "location": "Section C, Shelf 5"
+    "location": "Section C, Shelf 5",
+    "catalogNumber": "0002"
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
     "description": "A thought-provoking examination of technology's role in shaping our future.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section C, Shelf 4"
+    "location": "Section C, Shelf 4",
+    "catalogNumber": "0003"
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
     "description": "An epic adventure set in a richly imagined world of magic and wonder.",
     "publisher": "Penguin Random House",
     "language": "English",
-    "location": "Section F, Shelf 1"
+    "location": "Section F, Shelf 1",
+    "catalogNumber": "0004"
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
     "description": "A comprehensive study that challenges conventional historical perspectives.",
     "publisher": "O'Reilly Media",
     "language": "English",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0005"
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
     "description": "A gripping tale of intrigue and suspense that will keep you guessing until the final page.",
     "publisher": "Packt Publishing",
     "language": "French",
-    "location": "Section F, Shelf 7"
+    "location": "Section F, Shelf 7",
+    "catalogNumber": "0006"
   },
   {
     "id": 7,
@@ -102,7 +108,8 @@
     "description": "A comprehensive guide to principles and practices of modern design.",
     "publisher": "Pearson",
     "language": "German",
-    "location": "Section E, Shelf 5"
+    "location": "Section E, Shelf 5",
+    "catalogNumber": "0007"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section C, Shelf 2"
+    "location": "Section C, Shelf 2",
+    "catalogNumber": "0008"
   },
   {
     "id": 9,
@@ -132,7 +140,8 @@
     "description": "A high-stakes story of survival, betrayal, and redemption.",
     "publisher": "Apress",
     "language": "French",
-    "location": "Section B, Shelf 3"
+    "location": "Section B, Shelf 3",
+    "catalogNumber": "0009"
   },
   {
     "id": 10,
@@ -147,7 +156,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "Oxford University Press",
     "language": "English",
-    "location": "Section F, Shelf 4"
+    "location": "Section F, Shelf 4",
+    "catalogNumber": "0010"
   },
   {
     "id": 11,
@@ -162,7 +172,8 @@
     "description": "A fascinating exploration of how we think, feel, and make decisions.",
     "publisher": "Hachette Book Group",
     "language": "German",
-    "location": "Section E, Shelf 7"
+    "location": "Section E, Shelf 7",
+    "catalogNumber": "0011"
   },
   {
     "id": 12,
@@ -177,7 +188,8 @@
     "description": "An essential guide for modern developers looking to master cutting-edge techniques.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section B, Shelf 4"
+    "location": "Section B, Shelf 4",
+    "catalogNumber": "0012"
   },
   {
     "id": 13,
@@ -192,7 +204,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Penguin Random House",
     "language": "German",
-    "location": "Section F, Shelf 7"
+    "location": "Section F, Shelf 7",
+    "catalogNumber": "0013"
   },
   {
     "id": 14,
@@ -207,7 +220,8 @@
     "description": "A journey through the wonders of the natural world and beyond.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section A, Shelf 3"
+    "location": "Section A, Shelf 3",
+    "catalogNumber": "0014"
   },
   {
     "id": 15,
@@ -222,7 +236,8 @@
     "description": "An engaging narrative that illuminates a pivotal moment in human history.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section A, Shelf 4"
+    "location": "Section A, Shelf 4",
+    "catalogNumber": "0015"
   },
   {
     "id": 16,
@@ -237,7 +252,8 @@
     "description": "A comprehensive exploration of emerging technologies and their impact on society.",
     "publisher": "No Starch Press",
     "language": "English",
-    "location": "Section E, Shelf 2"
+    "location": "Section E, Shelf 2",
+    "catalogNumber": "0016"
   },
   {
     "id": 17,
@@ -252,7 +268,8 @@
     "description": "Complex concepts explained with clarity and enthusiasm.",
     "publisher": "Wiley",
     "language": "Spanish",
-    "location": "Section E, Shelf 6"
+    "location": "Section E, Shelf 6",
+    "catalogNumber": "0017"
   },
   {
     "id": 18,
@@ -267,7 +284,8 @@
     "description": "Rich characters and vivid storytelling bring this world to life.",
     "publisher": "Apress",
     "language": "English",
-    "location": "Section D, Shelf 5"
+    "location": "Section D, Shelf 5",
+    "catalogNumber": "0018"
   },
   {
     "id": 19,
@@ -282,7 +300,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section E, Shelf 7"
+    "location": "Section E, Shelf 7",
+    "catalogNumber": "0019"
   },
   {
     "id": 20,
@@ -297,7 +316,8 @@
     "description": "A tense psychological thriller that delves into the darkest corners of the human mind.",
     "publisher": "Wiley",
     "language": "French",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0020"
   },
   {
     "id": 21,
@@ -312,7 +332,8 @@
     "description": "A masterfully crafted whodunit that challenges readers to solve the puzzle alongside the detective.",
     "publisher": "Packt Publishing",
     "language": "English",
-    "location": "Section E, Shelf 5"
+    "location": "Section E, Shelf 5",
+    "catalogNumber": "0021"
   },
   {
     "id": 22,
@@ -327,7 +348,8 @@
     "description": "A beautifully written story of love, loss, and redemption.",
     "publisher": "Packt Publishing",
     "language": "Spanish",
-    "location": "Section E, Shelf 5"
+    "location": "Section E, Shelf 5",
+    "catalogNumber": "0022"
   },
   {
     "id": 23,
@@ -342,7 +364,8 @@
     "description": "An atmospheric mystery that weaves together past and present in unexpected ways.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section F, Shelf 6"
+    "location": "Section F, Shelf 6",
+    "catalogNumber": "0023"
   },
   {
     "id": 24,
@@ -357,7 +380,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "Penguin Random House",
     "language": "French",
-    "location": "Section E, Shelf 4"
+    "location": "Section E, Shelf 4",
+    "catalogNumber": "0024"
   },
   {
     "id": 25,
@@ -372,7 +396,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Wiley",
     "language": "German",
-    "location": "Section B, Shelf 3"
+    "location": "Section B, Shelf 3",
+    "catalogNumber": "0025"
   },
   {
     "id": 26,
@@ -387,7 +412,8 @@
     "description": "A compelling narrative that resonates long after the final page.",
     "publisher": "Wiley",
     "language": "English",
-    "location": "Section E, Shelf 3"
+    "location": "Section E, Shelf 3",
+    "catalogNumber": "0026"
   },
   {
     "id": 27,
@@ -402,7 +428,8 @@
     "description": "A journey through enchanted realms where anything is possible.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section E, Shelf 6"
+    "location": "Section E, Shelf 6",
+    "catalogNumber": "0027"
   },
   {
     "id": 28,
@@ -417,7 +444,8 @@
     "description": "Inspiring examples and practical advice for creative professionals.",
     "publisher": "Wiley",
     "language": "English",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0028"
   },
   {
     "id": 29,
@@ -432,7 +460,8 @@
     "description": "A visual journey through the evolution of design thinking.",
     "publisher": "Manning Publications",
     "language": "French",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0029"
   },
   {
     "id": 30,
@@ -447,7 +476,8 @@
     "description": "Complex concepts explained with clarity and enthusiasm.",
     "publisher": "Oxford University Press",
     "language": "English",
-    "location": "Section E, Shelf 6"
+    "location": "Section E, Shelf 6",
+    "catalogNumber": "0030"
   },
   {
     "id": 31,
@@ -462,7 +492,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0031"
   },
   {
     "id": 32,
@@ -477,7 +508,8 @@
     "description": "A thought-provoking examination of technology's role in shaping our future.",
     "publisher": "Apress",
     "language": "English",
-    "location": "Section A, Shelf 4"
+    "location": "Section A, Shelf 4",
+    "catalogNumber": "0032"
   },
   {
     "id": 33,
@@ -492,7 +524,8 @@
     "description": "An atmospheric mystery that weaves together past and present in unexpected ways.",
     "publisher": "Scholastic",
     "language": "German",
-    "location": "Section E, Shelf 3"
+    "location": "Section E, Shelf 3",
+    "catalogNumber": "0033"
   },
   {
     "id": 34,
@@ -507,7 +540,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section D, Shelf 7"
+    "location": "Section D, Shelf 7",
+    "catalogNumber": "0034"
   },
   {
     "id": 35,
@@ -522,7 +556,8 @@
     "description": "A visual journey through the evolution of design thinking.",
     "publisher": "Penguin Random House",
     "language": "Spanish",
-    "location": "Section F, Shelf 2"
+    "location": "Section F, Shelf 2",
+    "catalogNumber": "0035"
   },
   {
     "id": 36,
@@ -537,7 +572,8 @@
     "description": "A thrilling adventure that questions the nature of humanity and consciousness.",
     "publisher": "Apress",
     "language": "French",
-    "location": "Section E, Shelf 4"
+    "location": "Section E, Shelf 4",
+    "catalogNumber": "0036"
   },
   {
     "id": 37,
@@ -552,7 +588,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section A, Shelf 6"
+    "location": "Section A, Shelf 6",
+    "catalogNumber": "0037"
   },
   {
     "id": 38,
@@ -567,7 +604,8 @@
     "description": "A comprehensive study that challenges conventional historical perspectives.",
     "publisher": "Cambridge University Press",
     "language": "German",
-    "location": "Section A, Shelf 1"
+    "location": "Section A, Shelf 1",
+    "catalogNumber": "0038"
   },
   {
     "id": 39,
@@ -582,7 +620,8 @@
     "description": "A masterfully crafted whodunit that challenges readers to solve the puzzle alongside the detective.",
     "publisher": "Scholastic",
     "language": "German",
-    "location": "Section C, Shelf 7"
+    "location": "Section C, Shelf 7",
+    "catalogNumber": "0039"
   },
   {
     "id": 40,
@@ -597,7 +636,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Pearson",
     "language": "English",
-    "location": "Section D, Shelf 4"
+    "location": "Section D, Shelf 4",
+    "catalogNumber": "0040"
   },
   {
     "id": 41,
@@ -612,7 +652,8 @@
     "description": "A beautifully written story of love, loss, and redemption.",
     "publisher": "O'Reilly Media",
     "language": "English",
-    "location": "Section A, Shelf 8"
+    "location": "Section A, Shelf 8",
+    "catalogNumber": "0041"
   },
   {
     "id": 42,
@@ -627,7 +668,8 @@
     "description": "A journey through enchanted realms where anything is possible.",
     "publisher": "Scholastic",
     "language": "French",
-    "location": "Section A, Shelf 1"
+    "location": "Section A, Shelf 1",
+    "catalogNumber": "0042"
   },
   {
     "id": 43,
@@ -642,7 +684,8 @@
     "description": "A comprehensive guide to principles and practices of modern design.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0043"
   },
   {
     "id": 44,
@@ -657,7 +700,8 @@
     "description": "A comprehensive exploration of emerging technologies and their impact on society.",
     "publisher": "Scholastic",
     "language": "German",
-    "location": "Section E, Shelf 8"
+    "location": "Section E, Shelf 8",
+    "catalogNumber": "0044"
   },
   {
     "id": 45,
@@ -672,7 +716,8 @@
     "description": "A compassionate guide to overcoming challenges and building resilience.",
     "publisher": "Macmillan Publishers",
     "language": "French",
-    "location": "Section E, Shelf 5"
+    "location": "Section E, Shelf 5",
+    "catalogNumber": "0045"
   },
   {
     "id": 46,
@@ -687,7 +732,8 @@
     "description": "A thrilling adventure that questions the nature of humanity and consciousness.",
     "publisher": "Packt Publishing",
     "language": "French",
-    "location": "Section C, Shelf 1"
+    "location": "Section C, Shelf 1",
+    "catalogNumber": "0046"
   },
   {
     "id": 47,
@@ -702,7 +748,8 @@
     "description": "A comprehensive study that challenges conventional historical perspectives.",
     "publisher": "Simon & Schuster",
     "language": "German",
-    "location": "Section A, Shelf 8"
+    "location": "Section A, Shelf 8",
+    "catalogNumber": "0047"
   },
   {
     "id": 48,
@@ -717,7 +764,8 @@
     "description": "A gripping tale of intrigue and suspense that will keep you guessing until the final page.",
     "publisher": "Macmillan Publishers",
     "language": "Spanish",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0048"
   },
   {
     "id": 49,
@@ -732,7 +780,8 @@
     "description": "A comprehensive study that challenges conventional historical perspectives.",
     "publisher": "Wiley",
     "language": "English",
-    "location": "Section C, Shelf 5"
+    "location": "Section C, Shelf 5",
+    "catalogNumber": "0049"
   },
   {
     "id": 50,
@@ -747,7 +796,8 @@
     "description": "Practical insights and real-world examples for tech professionals and enthusiasts.",
     "publisher": "Pearson",
     "language": "Spanish",
-    "location": "Section F, Shelf 1"
+    "location": "Section F, Shelf 1",
+    "catalogNumber": "0050"
   },
   {
     "id": 51,
@@ -762,7 +812,8 @@
     "description": "Transformative strategies for personal growth and self-improvement.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section C, Shelf 7"
+    "location": "Section C, Shelf 7",
+    "catalogNumber": "0051"
   },
   {
     "id": 52,
@@ -777,7 +828,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "Simon & Schuster",
     "language": "German",
-    "location": "Section B, Shelf 7"
+    "location": "Section B, Shelf 7",
+    "catalogNumber": "0052"
   },
   {
     "id": 53,
@@ -792,7 +844,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section B, Shelf 5"
+    "location": "Section B, Shelf 5",
+    "catalogNumber": "0053"
   },
   {
     "id": 54,
@@ -807,7 +860,8 @@
     "description": "A visual journey through the evolution of design thinking.",
     "publisher": "Apress",
     "language": "English",
-    "location": "Section A, Shelf 7"
+    "location": "Section A, Shelf 7",
+    "catalogNumber": "0054"
   },
   {
     "id": 55,
@@ -822,7 +876,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section D, Shelf 8"
+    "location": "Section D, Shelf 8",
+    "catalogNumber": "0055"
   },
   {
     "id": 56,
@@ -837,7 +892,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Pearson",
     "language": "English",
-    "location": "Section A, Shelf 1"
+    "location": "Section A, Shelf 1",
+    "catalogNumber": "0056"
   },
   {
     "id": 57,
@@ -852,7 +908,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "Pearson",
     "language": "Spanish",
-    "location": "Section B, Shelf 8"
+    "location": "Section B, Shelf 8",
+    "catalogNumber": "0057"
   },
   {
     "id": 58,
@@ -867,7 +924,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "Pearson",
     "language": "English",
-    "location": "Section D, Shelf 8"
+    "location": "Section D, Shelf 8",
+    "catalogNumber": "0058"
   },
   {
     "id": 59,
@@ -882,7 +940,8 @@
     "description": "An intimate exploration of life's complexities and contradictions.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section D, Shelf 6"
+    "location": "Section D, Shelf 6",
+    "catalogNumber": "0059"
   },
   {
     "id": 60,
@@ -897,7 +956,8 @@
     "description": "Complex concepts explained with clarity and enthusiasm.",
     "publisher": "Oxford University Press",
     "language": "English",
-    "location": "Section D, Shelf 8"
+    "location": "Section D, Shelf 8",
+    "catalogNumber": "0060"
   },
   {
     "id": 61,
@@ -912,7 +972,8 @@
     "description": "Practical advice and exercises for achieving your goals and living your best life.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section A, Shelf 4"
+    "location": "Section A, Shelf 4",
+    "catalogNumber": "0061"
   },
   {
     "id": 62,
@@ -927,7 +988,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "O'Reilly Media",
     "language": "English",
-    "location": "Section F, Shelf 7"
+    "location": "Section F, Shelf 7",
+    "catalogNumber": "0062"
   },
   {
     "id": 63,
@@ -942,7 +1004,8 @@
     "description": "An epic adventure set in a richly imagined world of magic and wonder.",
     "publisher": "Scholastic",
     "language": "German",
-    "location": "Section C, Shelf 1"
+    "location": "Section C, Shelf 1",
+    "catalogNumber": "0063"
   },
   {
     "id": 64,
@@ -957,7 +1020,8 @@
     "description": "Essential techniques and strategies for creating exceptional user experiences.",
     "publisher": "Pearson",
     "language": "French",
-    "location": "Section C, Shelf 7"
+    "location": "Section C, Shelf 7",
+    "catalogNumber": "0064"
   },
   {
     "id": 65,
@@ -972,7 +1036,8 @@
     "description": "Rich characters and vivid storytelling bring this world to life.",
     "publisher": "Pearson",
     "language": "Spanish",
-    "location": "Section A, Shelf 6"
+    "location": "Section A, Shelf 6",
+    "catalogNumber": "0065"
   },
   {
     "id": 66,
@@ -987,7 +1052,8 @@
     "description": "A spellbinding tale of heroes, mythical creatures, and ancient prophecies.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0066"
   },
   {
     "id": 67,
@@ -1002,7 +1068,8 @@
     "description": "A compassionate guide to overcoming challenges and building resilience.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section D, Shelf 5"
+    "location": "Section D, Shelf 5",
+    "catalogNumber": "0067"
   },
   {
     "id": 68,
@@ -1017,7 +1084,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "O'Reilly Media",
     "language": "French",
-    "location": "Section D, Shelf 1"
+    "location": "Section D, Shelf 1",
+    "catalogNumber": "0068"
   },
   {
     "id": 69,
@@ -1032,7 +1100,8 @@
     "description": "Practical advice and exercises for achieving your goals and living your best life.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section D, Shelf 4"
+    "location": "Section D, Shelf 4",
+    "catalogNumber": "0069"
   },
   {
     "id": 70,
@@ -1047,7 +1116,8 @@
     "description": "A compelling narrative that resonates long after the final page.",
     "publisher": "Penguin Random House",
     "language": "Spanish",
-    "location": "Section E, Shelf 6"
+    "location": "Section E, Shelf 6",
+    "catalogNumber": "0070"
   },
   {
     "id": 71,
@@ -1062,7 +1132,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "No Starch Press",
     "language": "English",
-    "location": "Section F, Shelf 3"
+    "location": "Section F, Shelf 3",
+    "catalogNumber": "0071"
   },
   {
     "id": 72,
@@ -1077,7 +1148,8 @@
     "description": "A high-stakes story of survival, betrayal, and redemption.",
     "publisher": "Penguin Random House",
     "language": "English",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0072"
   },
   {
     "id": 73,
@@ -1092,7 +1164,8 @@
     "description": "Scientific research presented in an accessible and engaging format.",
     "publisher": "Manning Publications",
     "language": "French",
-    "location": "Section E, Shelf 1"
+    "location": "Section E, Shelf 1",
+    "catalogNumber": "0073"
   },
   {
     "id": 74,
@@ -1107,7 +1180,8 @@
     "description": "Rich characters and vivid storytelling bring this world to life.",
     "publisher": "Oxford University Press",
     "language": "English",
-    "location": "Section B, Shelf 4"
+    "location": "Section B, Shelf 4",
+    "catalogNumber": "0074"
   },
   {
     "id": 75,
@@ -1122,7 +1196,8 @@
     "description": "A masterfully crafted whodunit that challenges readers to solve the puzzle alongside the detective.",
     "publisher": "Oxford University Press",
     "language": "French",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0075"
   },
   {
     "id": 76,
@@ -1137,7 +1212,8 @@
     "description": "Transformative strategies for personal growth and self-improvement.",
     "publisher": "Macmillan Publishers",
     "language": "English",
-    "location": "Section C, Shelf 6"
+    "location": "Section C, Shelf 6",
+    "catalogNumber": "0076"
   },
   {
     "id": 77,
@@ -1152,7 +1228,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "Macmillan Publishers",
     "language": "English",
-    "location": "Section D, Shelf 3"
+    "location": "Section D, Shelf 3",
+    "catalogNumber": "0077"
   },
   {
     "id": 78,
@@ -1167,7 +1244,8 @@
     "description": "An intimate exploration of life's complexities and contradictions.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section F, Shelf 7"
+    "location": "Section F, Shelf 7",
+    "catalogNumber": "0078"
   },
   {
     "id": 79,
@@ -1182,7 +1260,8 @@
     "description": "A comprehensive study that challenges conventional historical perspectives.",
     "publisher": "Macmillan Publishers",
     "language": "French",
-    "location": "Section B, Shelf 8"
+    "location": "Section B, Shelf 8",
+    "catalogNumber": "0079"
   },
   {
     "id": 80,
@@ -1197,7 +1276,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "No Starch Press",
     "language": "German",
-    "location": "Section C, Shelf 2"
+    "location": "Section C, Shelf 2",
+    "catalogNumber": "0080"
   },
   {
     "id": 81,
@@ -1212,7 +1292,8 @@
     "description": "A thrilling adventure that questions the nature of humanity and consciousness.",
     "publisher": "Oxford University Press",
     "language": "French",
-    "location": "Section D, Shelf 1"
+    "location": "Section D, Shelf 1",
+    "catalogNumber": "0081"
   },
   {
     "id": 82,
@@ -1227,7 +1308,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0082"
   },
   {
     "id": 83,
@@ -1242,7 +1324,8 @@
     "description": "A gripping tale of intrigue and suspense that will keep you guessing until the final page.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section C, Shelf 2"
+    "location": "Section C, Shelf 2",
+    "catalogNumber": "0083"
   },
   {
     "id": 84,
@@ -1257,7 +1340,8 @@
     "description": "A mind-bending story that blends cutting-edge science with compelling narrative.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section E, Shelf 1"
+    "location": "Section E, Shelf 1",
+    "catalogNumber": "0084"
   },
   {
     "id": 85,
@@ -1272,7 +1356,8 @@
     "description": "Inspiring examples and practical advice for creative professionals.",
     "publisher": "Packt Publishing",
     "language": "English",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0085"
   },
   {
     "id": 86,
@@ -1287,7 +1372,8 @@
     "description": "A spellbinding tale of heroes, mythical creatures, and ancient prophecies.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section B, Shelf 8"
+    "location": "Section B, Shelf 8",
+    "catalogNumber": "0086"
   },
   {
     "id": 87,
@@ -1302,7 +1388,8 @@
     "description": "A spellbinding tale of heroes, mythical creatures, and ancient prophecies.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section C, Shelf 1"
+    "location": "Section C, Shelf 1",
+    "catalogNumber": "0087"
   },
   {
     "id": 88,
@@ -1317,7 +1404,8 @@
     "description": "A spellbinding tale of heroes, mythical creatures, and ancient prophecies.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section E, Shelf 7"
+    "location": "Section E, Shelf 7",
+    "catalogNumber": "0088"
   },
   {
     "id": 89,
@@ -1332,7 +1420,8 @@
     "description": "Complex concepts explained with clarity and enthusiasm.",
     "publisher": "No Starch Press",
     "language": "English",
-    "location": "Section D, Shelf 4"
+    "location": "Section D, Shelf 4",
+    "catalogNumber": "0089"
   },
   {
     "id": 90,
@@ -1347,7 +1436,8 @@
     "description": "An engaging narrative that illuminates a pivotal moment in human history.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section A, Shelf 3"
+    "location": "Section A, Shelf 3",
+    "catalogNumber": "0090"
   },
   {
     "id": 91,
@@ -1362,7 +1452,8 @@
     "description": "An essential guide for modern developers looking to master cutting-edge techniques.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section D, Shelf 5"
+    "location": "Section D, Shelf 5",
+    "catalogNumber": "0091"
   },
   {
     "id": 92,
@@ -1377,7 +1468,8 @@
     "description": "An essential guide for modern developers looking to master cutting-edge techniques.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section D, Shelf 3"
+    "location": "Section D, Shelf 3",
+    "catalogNumber": "0092"
   },
   {
     "id": 93,
@@ -1392,7 +1484,8 @@
     "description": "An imaginative journey through space, time, and alternate realities.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section D, Shelf 1"
+    "location": "Section D, Shelf 1",
+    "catalogNumber": "0093"
   },
   {
     "id": 94,
@@ -1407,7 +1500,8 @@
     "description": "Compelling characters face difficult choices in this gripping drama.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section C, Shelf 2"
+    "location": "Section C, Shelf 2",
+    "catalogNumber": "0094"
   },
   {
     "id": 95,
@@ -1422,7 +1516,8 @@
     "description": "An engaging narrative that illuminates a pivotal moment in human history.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section B, Shelf 1"
+    "location": "Section B, Shelf 1",
+    "catalogNumber": "0095"
   },
   {
     "id": 96,
@@ -1437,7 +1532,8 @@
     "description": "An epic adventure set in a richly imagined world of magic and wonder.",
     "publisher": "Pearson",
     "language": "English",
-    "location": "Section C, Shelf 8"
+    "location": "Section C, Shelf 8",
+    "catalogNumber": "0096"
   },
   {
     "id": 97,
@@ -1452,7 +1548,8 @@
     "description": "A journey through the wonders of the natural world and beyond.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section F, Shelf 5"
+    "location": "Section F, Shelf 5",
+    "catalogNumber": "0097"
   },
   {
     "id": 98,
@@ -1467,7 +1564,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "O'Reilly Media",
     "language": "Spanish",
-    "location": "Section F, Shelf 8"
+    "location": "Section F, Shelf 8",
+    "catalogNumber": "0098"
   },
   {
     "id": 99,
@@ -1482,7 +1580,8 @@
     "description": "A comprehensive guide to principles and practices of modern design.",
     "publisher": "Apress",
     "language": "English",
-    "location": "Section D, Shelf 4"
+    "location": "Section D, Shelf 4",
+    "catalogNumber": "0099"
   },
   {
     "id": 100,
@@ -1497,7 +1596,8 @@
     "description": "A spellbinding tale of heroes, mythical creatures, and ancient prophecies.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section F, Shelf 1"
+    "location": "Section F, Shelf 1",
+    "catalogNumber": "0100"
   },
   {
     "id": 101,
@@ -1512,7 +1612,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Pearson",
     "language": "English",
-    "location": "Section B, Shelf 7"
+    "location": "Section B, Shelf 7",
+    "catalogNumber": "0101"
   },
   {
     "id": 102,
@@ -1527,7 +1628,8 @@
     "description": "A masterfully crafted whodunit that challenges readers to solve the puzzle alongside the detective.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section C, Shelf 4"
+    "location": "Section C, Shelf 4",
+    "catalogNumber": "0102"
   },
   {
     "id": 103,
@@ -1542,7 +1644,8 @@
     "description": "A journey through enchanted realms where anything is possible.",
     "publisher": "Apress",
     "language": "French",
-    "location": "Section D, Shelf 1"
+    "location": "Section D, Shelf 1",
+    "catalogNumber": "0103"
   },
   {
     "id": 104,
@@ -1557,7 +1660,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Hachette Book Group",
     "language": "German",
-    "location": "Section C, Shelf 5"
+    "location": "Section C, Shelf 5",
+    "catalogNumber": "0104"
   },
   {
     "id": 105,
@@ -1572,7 +1676,8 @@
     "description": "A compelling narrative that resonates long after the final page.",
     "publisher": "No Starch Press",
     "language": "French",
-    "location": "Section D, Shelf 1"
+    "location": "Section D, Shelf 1",
+    "catalogNumber": "0105"
   },
   {
     "id": 106,
@@ -1587,7 +1692,8 @@
     "description": "A thrilling adventure that questions the nature of humanity and consciousness.",
     "publisher": "No Starch Press",
     "language": "French",
-    "location": "Section C, Shelf 3"
+    "location": "Section C, Shelf 3",
+    "catalogNumber": "0106"
   },
   {
     "id": 107,
@@ -1602,7 +1708,8 @@
     "description": "Transformative strategies for personal growth and self-improvement.",
     "publisher": "O'Reilly Media",
     "language": "English",
-    "location": "Section B, Shelf 8"
+    "location": "Section B, Shelf 8",
+    "catalogNumber": "0107"
   },
   {
     "id": 108,
@@ -1617,7 +1724,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "Scholastic",
     "language": "French",
-    "location": "Section E, Shelf 1"
+    "location": "Section E, Shelf 1",
+    "catalogNumber": "0108"
   },
   {
     "id": 109,
@@ -1632,7 +1740,8 @@
     "description": "A journey through the wonders of the natural world and beyond.",
     "publisher": "Wiley",
     "language": "Spanish",
-    "location": "Section F, Shelf 2"
+    "location": "Section F, Shelf 2",
+    "catalogNumber": "0109"
   },
   {
     "id": 110,
@@ -1647,7 +1756,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "No Starch Press",
     "language": "English",
-    "location": "Section D, Shelf 7"
+    "location": "Section D, Shelf 7",
+    "catalogNumber": "0110"
   },
   {
     "id": 111,
@@ -1662,7 +1772,8 @@
     "description": "An unforgettable tale that explores the depths of human experience.",
     "publisher": "Manning Publications",
     "language": "French",
-    "location": "Section B, Shelf 1"
+    "location": "Section B, Shelf 1",
+    "catalogNumber": "0111"
   },
   {
     "id": 112,
@@ -1677,7 +1788,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section E, Shelf 4"
+    "location": "Section E, Shelf 4",
+    "catalogNumber": "0112"
   },
   {
     "id": 113,
@@ -1692,7 +1804,8 @@
     "description": "Rich characters and vivid storytelling bring this world to life.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section D, Shelf 3"
+    "location": "Section D, Shelf 3",
+    "catalogNumber": "0113"
   },
   {
     "id": 114,
@@ -1707,7 +1820,8 @@
     "description": "A fascinating exploration of events that shaped the modern world.",
     "publisher": "Macmillan Publishers",
     "language": "English",
-    "location": "Section D, Shelf 2"
+    "location": "Section D, Shelf 2",
+    "catalogNumber": "0114"
   },
   {
     "id": 115,
@@ -1722,7 +1836,8 @@
     "description": "An epic adventure set in a richly imagined world of magic and wonder.",
     "publisher": "Apress",
     "language": "German",
-    "location": "Section A, Shelf 5"
+    "location": "Section A, Shelf 5",
+    "catalogNumber": "0115"
   },
   {
     "id": 116,
@@ -1737,7 +1852,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section F, Shelf 1"
+    "location": "Section F, Shelf 1",
+    "catalogNumber": "0116"
   },
   {
     "id": 117,
@@ -1752,7 +1868,8 @@
     "description": "A moving narrative that captures the essence of the human condition.",
     "publisher": "O'Reilly Media",
     "language": "Spanish",
-    "location": "Section F, Shelf 6"
+    "location": "Section F, Shelf 6",
+    "catalogNumber": "0117"
   },
   {
     "id": 118,
@@ -1767,7 +1884,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section B, Shelf 6"
+    "location": "Section B, Shelf 6",
+    "catalogNumber": "0118"
   },
   {
     "id": 119,
@@ -1782,7 +1900,8 @@
     "description": "The latest research presented in an engaging and accessible way.",
     "publisher": "Oxford University Press",
     "language": "French",
-    "location": "Section E, Shelf 5"
+    "location": "Section E, Shelf 5",
+    "catalogNumber": "0119"
   },
   {
     "id": 120,
@@ -1797,7 +1916,8 @@
     "description": "A moving narrative that captures the essence of the human condition.",
     "publisher": "Penguin Random House",
     "language": "German",
-    "location": "Section E, Shelf 3"
+    "location": "Section E, Shelf 3",
+    "catalogNumber": "0120"
   },
   {
     "id": 121,
@@ -1812,7 +1932,8 @@
     "description": "A fascinating exploration of how we think, feel, and make decisions.",
     "publisher": "O'Reilly Media",
     "language": "English",
-    "location": "Section B, Shelf 6"
+    "location": "Section B, Shelf 6",
+    "catalogNumber": "0121"
   },
   {
     "id": 122,
@@ -1827,7 +1948,8 @@
     "description": "An intimate exploration of life's complexities and contradictions.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section A, Shelf 5"
+    "location": "Section A, Shelf 5",
+    "catalogNumber": "0122"
   },
   {
     "id": 123,
@@ -1842,7 +1964,8 @@
     "description": "A visionary tale that explores the possibilities of tomorrow.",
     "publisher": "Manning Publications",
     "language": "German",
-    "location": "Section F, Shelf 5"
+    "location": "Section F, Shelf 5",
+    "catalogNumber": "0123"
   },
   {
     "id": 124,
@@ -1857,7 +1980,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Manning Publications",
     "language": "English",
-    "location": "Section D, Shelf 3"
+    "location": "Section D, Shelf 3",
+    "catalogNumber": "0124"
   },
   {
     "id": 125,
@@ -1872,7 +1996,8 @@
     "description": "An engaging narrative that illuminates a pivotal moment in human history.",
     "publisher": "Simon & Schuster",
     "language": "German",
-    "location": "Section A, Shelf 1"
+    "location": "Section A, Shelf 1",
+    "catalogNumber": "0125"
   },
   {
     "id": 126,
@@ -1887,7 +2012,8 @@
     "description": "A thought-provoking examination of technology's role in shaping our future.",
     "publisher": "Oxford University Press",
     "language": "English",
-    "location": "Section C, Shelf 5"
+    "location": "Section C, Shelf 5",
+    "catalogNumber": "0126"
   },
   {
     "id": 127,
@@ -1902,7 +2028,8 @@
     "description": "A high-stakes story of survival, betrayal, and redemption.",
     "publisher": "Apress",
     "language": "English",
-    "location": "Section A, Shelf 1"
+    "location": "Section A, Shelf 1",
+    "catalogNumber": "0127"
   },
   {
     "id": 128,
@@ -1917,7 +2044,8 @@
     "description": "Inspiring stories and actionable steps for positive change.",
     "publisher": "Wiley",
     "language": "German",
-    "location": "Section D, Shelf 4"
+    "location": "Section D, Shelf 4",
+    "catalogNumber": "0128"
   },
   {
     "id": 129,
@@ -1932,7 +2060,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section E, Shelf 3"
+    "location": "Section E, Shelf 3",
+    "catalogNumber": "0129"
   },
   {
     "id": 130,
@@ -1947,7 +2076,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "Macmillan Publishers",
     "language": "English",
-    "location": "Section A, Shelf 7"
+    "location": "Section A, Shelf 7",
+    "catalogNumber": "0130"
   },
   {
     "id": 131,
@@ -1962,7 +2092,8 @@
     "description": "An immersive fantasy that transports readers to extraordinary new worlds.",
     "publisher": "Pearson",
     "language": "French",
-    "location": "Section F, Shelf 3"
+    "location": "Section F, Shelf 3",
+    "catalogNumber": "0131"
   },
   {
     "id": 132,
@@ -1977,7 +2108,8 @@
     "description": "A masterfully crafted whodunit that challenges readers to solve the puzzle alongside the detective.",
     "publisher": "Hachette Book Group",
     "language": "English",
-    "location": "Section F, Shelf 2"
+    "location": "Section F, Shelf 2",
+    "catalogNumber": "0132"
   },
   {
     "id": 133,
@@ -1992,7 +2124,8 @@
     "description": "A high-stakes story of survival, betrayal, and redemption.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section B, Shelf 4"
+    "location": "Section B, Shelf 4",
+    "catalogNumber": "0133"
   },
   {
     "id": 134,
@@ -2007,7 +2140,8 @@
     "description": "A meticulously researched account that brings the past vividly to life.",
     "publisher": "Simon & Schuster",
     "language": "French",
-    "location": "Section A, Shelf 2"
+    "location": "Section A, Shelf 2",
+    "catalogNumber": "0134"
   },
   {
     "id": 135,
@@ -2022,7 +2156,8 @@
     "description": "A journey through the wonders of the natural world and beyond.",
     "publisher": "No Starch Press",
     "language": "English",
-    "location": "Section F, Shelf 2"
+    "location": "Section F, Shelf 2",
+    "catalogNumber": "0135"
   },
   {
     "id": 136,
@@ -2037,7 +2172,8 @@
     "description": "A compassionate guide to overcoming challenges and building resilience.",
     "publisher": "Hachette Book Group",
     "language": "Spanish",
-    "location": "Section F, Shelf 5"
+    "location": "Section F, Shelf 5",
+    "catalogNumber": "0136"
   },
   {
     "id": 137,
@@ -2052,7 +2188,8 @@
     "description": "A mind-bending story that blends cutting-edge science with compelling narrative.",
     "publisher": "No Starch Press",
     "language": "German",
-    "location": "Section E, Shelf 8"
+    "location": "Section E, Shelf 8",
+    "catalogNumber": "0137"
   },
   {
     "id": 138,
@@ -2067,7 +2204,8 @@
     "description": "Groundbreaking insights into human behavior and the workings of the mind.",
     "publisher": "Simon & Schuster",
     "language": "German",
-    "location": "Section A, Shelf 7"
+    "location": "Section A, Shelf 7",
+    "catalogNumber": "0138"
   },
   {
     "id": 139,
@@ -2082,7 +2220,8 @@
     "description": "A heart-pounding race against time filled with danger and deception.",
     "publisher": "Pearson",
     "language": "French",
-    "location": "Section C, Shelf 6"
+    "location": "Section C, Shelf 6",
+    "catalogNumber": "0139"
   },
   {
     "id": 140,
@@ -2097,7 +2236,8 @@
     "description": "An adrenaline-fueled adventure that keeps readers on the edge of their seats.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section A, Shelf 5"
+    "location": "Section A, Shelf 5",
+    "catalogNumber": "0140"
   },
   {
     "id": 141,
@@ -2112,7 +2252,8 @@
     "description": "A compelling narrative that resonates long after the final page.",
     "publisher": "Scholastic",
     "language": "English",
-    "location": "Section B, Shelf 3"
+    "location": "Section B, Shelf 3",
+    "catalogNumber": "0141"
   },
   {
     "id": 142,
@@ -2127,7 +2268,8 @@
     "description": "Complex concepts explained with clarity and enthusiasm.",
     "publisher": "Simon & Schuster",
     "language": "English",
-    "location": "Section D, Shelf 5"
+    "location": "Section D, Shelf 5",
+    "catalogNumber": "0142"
   },
   {
     "id": 143,
@@ -2142,7 +2284,8 @@
     "description": "A thought-provoking examination of technology's role in shaping our future.",
     "publisher": "Hachette Book Group",
     "language": "French",
-    "location": "Section B, Shelf 5"
+    "location": "Section B, Shelf 5",
+    "catalogNumber": "0143"
   },
   {
     "id": 144,
@@ -2157,7 +2300,8 @@
     "description": "Practical insights and real-world examples for tech professionals and enthusiasts.",
     "publisher": "HarperCollins",
     "language": "English",
-    "location": "Section B, Shelf 7"
+    "location": "Section B, Shelf 7",
+    "catalogNumber": "0144"
   },
   {
     "id": 145,
@@ -2172,7 +2316,8 @@
     "description": "Essential techniques and strategies for creating exceptional user experiences.",
     "publisher": "Cambridge University Press",
     "language": "English",
-    "location": "Section F, Shelf 5"
+    "location": "Section F, Shelf 5",
+    "catalogNumber": "0145"
   },
   {
     "id": 146,
@@ -2187,7 +2332,8 @@
     "description": "Compelling characters face difficult choices in this gripping drama.",
     "publisher": "Macmillan Publishers",
     "language": "German",
-    "location": "Section F, Shelf 8"
+    "location": "Section F, Shelf 8",
+    "catalogNumber": "0146"
   },
   {
     "id": 147,
@@ -2202,7 +2348,8 @@
     "description": "An imaginative journey through space, time, and alternate realities.",
     "publisher": "Oxford University Press",
     "language": "French",
-    "location": "Section C, Shelf 6"
+    "location": "Section C, Shelf 6",
+    "catalogNumber": "0147"
   },
   {
     "id": 148,
@@ -2217,7 +2364,8 @@
     "description": "Practical wisdom for understanding ourselves and others better.",
     "publisher": "Penguin Random House",
     "language": "English",
-    "location": "Section C, Shelf 1"
+    "location": "Section C, Shelf 1",
+    "catalogNumber": "0148"
   },
   {
     "id": 149,
@@ -2232,7 +2380,8 @@
     "description": "An essential guide for modern developers looking to master cutting-edge techniques.",
     "publisher": "Packt Publishing",
     "language": "English",
-    "location": "Section E, Shelf 2"
+    "location": "Section E, Shelf 2",
+    "catalogNumber": "0149"
   },
   {
     "id": 150,
@@ -2247,6 +2396,7 @@
     "description": "A visual journey through the evolution of design thinking.",
     "publisher": "Oxford University Press",
     "language": "French",
-    "location": "Section C, Shelf 4"
+    "location": "Section C, Shelf 4",
+    "catalogNumber": "0150"
   }
 ]

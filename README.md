@@ -77,6 +77,8 @@ ng test
 
 **Filtering & Sorting Logic**: In traditional NgRx (pre-Signal Store), this logic would typically reside in Selectors. Since the Signal Store doesn't yet have a direct "one-to-one" equivalent for complex local filtering, I chose to handle the sorting and filtering logic within the Component level. This prevents the Global Store from being "polluted" with transient UI state (like specific filter queries) that isn't required by other parts of the application.
 
+**Client-Side ID Generation**: For the mock implementation, book IDs are generated client-side in the component before calling the service (see `book-form.component.ts:118-122`). **In a production environment**, this approach would be replaced: the client would send `null` or omit the `id` field when creating a new book, and the backend API would generate and return the server-assigned ID. The Store would then be updated with the book object containing the real ID from the server response.
+
 ## Project Structure
 
 ```

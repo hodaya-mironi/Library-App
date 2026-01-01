@@ -1,5 +1,6 @@
 export interface Book {
     id: number,
+    catalogNumber: string,
     title: string,
     author: string,
     isbn: string,
